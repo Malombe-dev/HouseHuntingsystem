@@ -3,8 +3,8 @@ import { useSearchParams, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import PropertyCard from '../../components/cards/PropertyCard';
 import SearchBar from '../../components/filters/SearchBar';
-import PropertyFilters from '../../components/filters/PropertyFilters';
-import SortOptions from '../../components/filters/SortOptions';
+import PropertyFilters from '../../components/filters/PropertyFilter';
+import SortOptions from '../../components/filters/SortOPtions';
 import LoadingSpinner, { CardLoader } from '../../components/common/LoadingSpinner';
 import { 
   AdjustmentsHorizontalIcon,
